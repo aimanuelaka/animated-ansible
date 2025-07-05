@@ -24,11 +24,11 @@
     ansible_python_interpreter: /usr/bin/python3.10
     keypair: devops-key
     instance_type: t2.micro
-    image_id: ami-0fc5d935ebf8bc3bc
+    image_id: ami-0faab6bdbac9486fb
     wait: yes
     group: webserver
     count: 1
-    region: us-east-1
+    region: us-west-1
     security_group: ec2-security-group
     tag_name:
       Name: AnsibleVM    
