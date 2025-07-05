@@ -24,7 +24,7 @@
     ansible_python_interpreter: /usr/bin/python3.10
     keypair: devops-key
     instance_type: t2.micro
-    image_id: ami-053b0d53c279acc90
+    image_id: ami-01f23391a59163da9
     wait: yes
     group: webserver
     count: 1
